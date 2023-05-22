@@ -36,7 +36,6 @@ For a full list of symbols, reference the following example:
 
 It's important to note the direction in which you put the symbols is important! The direction dictates the type of relationship and how data relates to each other. For example if we wanted to use the previous tables to model `owners has-one homes` we could do the following:
 
-![has-one](https://sei-r.s3.amazonaws.com/u2_lesson_erd/has-one.png)
 
 Take note of the type of symbols we used and to what field they are pointing to:
 
@@ -44,9 +43,6 @@ Take note of the type of symbols we used and to what field they are pointing to:
 
 What if we wanted to model a `one-to-many` relationship?
 
-Take a look at the following example:
-
-![one-many](https://sei-r.s3.amazonaws.com/u2_lesson_erd/one-many.png)
 
 - In this scenario, one person can have one or many pets
 - We reflect that with the `one` symbol on the `persons` side of the diagram and the `one or many` symbol on the `pets` side of the diagram.
