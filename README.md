@@ -2,7 +2,7 @@
 
 ![](https://www.conceptdraw.com/solution-park/icons/SD_TOOL_ERD/spbanner.png)
 
-_"Failing to prepare is preparing to fail"_
+_"Failing to prepare is preparing to fail"_ - A truism for Server Side coding
 
 
 ## Overview
