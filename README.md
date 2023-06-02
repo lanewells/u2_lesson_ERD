@@ -17,11 +17,11 @@ ERD stands for Entity Relationship Diagram. It is a tool used to plan out a data
 
 In the world of databases, there are many ways to relate data. We'll only use a few of them during this course. Here's a list of the types of relationships we'll use:
 
-| Relationship | Description                                                                                                                                         |
-| ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------- |
-| One-To-One   | One parent can only have one child                                                                                                                  |
-| One-To-Many  | One parent can have many children. A child can only have one parent. We use a foreign key/reference (typically a unique value such as the ObjectId) |
-| Many-To-Many | Many parents can have many children, join table/collection is used as a middleman to store both references                                          |
+| Relationship | Description                                                                                                                                         | Example|
+| ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------- |-------------------------------|
+| One-To-One   | One parent can only have one child                                                                                                                  |A citizen has one Passport.    |
+| One-To-Many  | One parent can have many children. A child can only have one parent. We use a foreign key/reference (typically a unique value such as the ObjectId) |A class has many Students.     |
+| Many-To-Many | Many parents can have many children, join table/collection is used as a middleman to store both references                                          |Many airports have many flights|
 
 For Example, a table/collection can be modeled like the following:
 
