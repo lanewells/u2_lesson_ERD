@@ -2,6 +2,9 @@
 
 ![](https://www.conceptdraw.com/solution-park/icons/SD_TOOL_ERD/spbanner.png)
 
+_"Failing to prepare is preparing to fail"_
+
+
 ## Overview
 
 In this lesson, we'll talk about one of the most important aspects of building an **organized** and **efficient** database. ERD's are diagrams that allow us to plan what our database will look like and contain before we ever write a line of code.
@@ -62,6 +65,8 @@ An ERD helps us have a concise plan/map of what our data should look like. It's 
 - Backpedaling to change your schemas, in MongoDB this means you'll have to destroy the entire database.
 - Second guessing relationships / modeling relationships incorrectly.
 - Overly complicated data structures that can be simplified or organized in a more efficient way.
+- Sharing data and planning with team mates, managers, or investors/shareholders
+
 
 ## How Do You Draw An ERD
 
