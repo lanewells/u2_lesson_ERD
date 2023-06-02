@@ -22,10 +22,14 @@ In the world of databases, there are many ways to relate data. We'll only use a 
 
 For Example, a table/collection can be modeled like the following:
 
-![tables](https://sei-r.s3.amazonaws.com/u2_lesson_erd/tables.png)
+![tables](https://raw.githubusercontent.com/austinih/tickit_app_backend/main/assets/Tickit_ERD.png)
 
-In this example, the **owners** and **homes** diagrams represents a model/schema and it's attributes. It is common to always pluralize tables/collections as they typically hold multiple rows/documents. Think of each table/collection as an array of objects. The objects being a represenation of our schema.
+In this example, a Venue has many Events, and each Event has many tickets. 
 
+Lets take it up a notch to look at a more complex one
+
+
+![table2](https://raw.githubusercontent.com/austinih/RPG_Realms_Backend/main/Assets/ERD.png)
 ### Relationship Symbols
 
 In order to model a relationship, we need to use special symbols called `Crow's Feet` for this exact use. ERD's are an industry standard typically used by database admins/backend engineers.
