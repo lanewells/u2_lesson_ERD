@@ -68,7 +68,7 @@ There's a few free and readily available tools that can be used to design and bu
 
 The tools listed above are intuitive and simpler to use than others and are more than adequate to build ERD's during this course. They also have really awesome tutorials on how to do anything with them!
 
-## You Do - 10 minutes
+## You Do - 15 minutes
 
 Designing a mock e-commerce site, create an ERD with 3 models, a User, a Shopping Cart, and Products. Create property key value pairs for each of these models and relate them using association you think would be most appropriate
 
