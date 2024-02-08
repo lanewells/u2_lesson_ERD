@@ -23,16 +23,7 @@ In the world of databases, there are many ways to relate data. We'll only use a 
 | One-To-Many  | One parent can have many children. A child can only have one parent. We use a foreign key/reference (typically a unique value such as the ObjectId) |A class has many Students.     |
 | Many-To-Many | Many parents can have many children, join table/collection is used as a middleman to store both references                                          |Many airports have many flights|
 
-For Example, a table/collection can be modeled like the following:
 
-![tables](https://raw.githubusercontent.com/austinih/tickit_app_backend/main/assets/Tickit_ERD.png)
-
-In this example, a Venue has many Events, and each Event has many tickets. 
-
-Lets take it up a notch to look at a more complex one
-
-
-![table2](https://raw.githubusercontent.com/austinih/RPG_Realms_Backend/main/Assets/ERD.png)
 ### Relationship Symbols
 
 In order to model a relationship, we need to use special symbols called `Crow's Feet` for this exact use. ERD's are an industry standard typically used by database admins/backend engineers.
