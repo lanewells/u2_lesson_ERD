@@ -49,6 +49,24 @@ What if we wanted to model a `one-to-many` relationship?
 
 For the most part, the name of the collection/table is always **underscored** and **pluraled** while the fields are **singular**. This is a convention that comes from SQL/Relational based databases and is widely adopted accross the industry. If in doubt always consult your companies style guide and ask questions.
 
+Key Value Pairs in our ERD should be the Property, and the Datatype associated. ~Not~ an example of the data, ie:
+
+```
+{
+userName : string,
+age : number
+}
+
+```
+
+not
+
+```
+userName : "fakeUser123",
+age: : 25
+```
+
+
 ## Benefits Of An ERD
 
 An ERD helps us have a concise plan/map of what our data should look like. It's one of the most important planning phases of any full stack project. Without an ERD you'll typically run into the following issues:
