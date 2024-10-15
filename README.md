@@ -30,7 +30,7 @@ In order to model a relationship, we need to use special symbols called `Crow's 
 
 For a full list of symbols, reference the following example:
 
-![](https://i.stack.imgur.com/5uwcF.png)
+![](https://i.sstatic.net/5uwcF.png)
 
 It's important to note the direction in which you put the symbols is important! The direction dictates the type of relationship and how data relates to each other. For example if we wanted to use the previous tables to model `owners has-one homes` we could do the following:
 
